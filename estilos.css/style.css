@@ -1,0 +1,27 @@
+/* //////////// Config ///////////// */
+
+
+/* //////////// Grls ///////////// */
+
+/* --orange-peel: hsla(37, 100%, 50%, 1);
+--sonic-silver: hsla(280, 1%, 48%, 1);
+--black: hsla(0, 0%, 0%, 1);
+--orange-red: hsla(20, 94%, 55%, 1);
+--sky-blue: hsla(194, 68%, 63%, 1); */
+
+@font-face {
+    font-family: "yanone";
+    src: url(../fonts/static/YanoneKaffeesatz-Medium.woff) format("woff");
+    font-display: swap;
+}
+h1{
+    font-family: yanone;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+    background: linear-gradient(187deg, rgba(0,0,0,1) 30%, rgba(255,159,0,1) 25% 80%, rgba(0,0,0,1) 40%);
+}
+
