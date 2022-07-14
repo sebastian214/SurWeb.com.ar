@@ -1,7 +1,13 @@
-/* //////////// Config ///////////// */
 
+/* Sur Web */
 
-/* //////////// Grls ///////////// */
+/*//------ //-----//------//------// Configs //------//------//------// */
+*, *::after, *::before{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/*//------ //-----//------//------// Grls //------//------//------// */
 
 /* --orange-peel: hsla(37, 100%, 50%, 1);
 --sonic-silver: hsla(280, 1%, 48%, 1);
@@ -14,14 +20,42 @@
     src: url(../fonts/static/YanoneKaffeesatz-Medium.woff) format("woff");
     font-display: swap;
 }
-h1{
-    font-family: yanone;
-}
 
+/*//------ //-----//------//------// Cuerpo //------//------//------// */
 body{
     width: 100%;
     min-height: 100vh;
-    background-color: black;
-    background: linear-gradient(187deg, rgba(0,0,0,1) 30%, rgba(255,159,0,1) 25% 80%, rgba(0,0,0,1) 40%);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 30%, rgba(255,159,0,1) 25% 80%, rgba(0,0,0,1) 40%);
+}
+/* -/-/-/-/-/- Header -/-/-/-/-/- */
+.header{
+    margin-top: 5px;
+    width: 100%;
+    /* max-width: 70%; */
+    margin-left: auto;
+    margin-right: auto;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header__titl h2{
+    font-size: 3.6rem;
+    font-family: yanone;
+    letter-spacing: 7px;
+}
+.header__titl--mod{
+    font-size: 5rem;
+    color: rgba(255,159,0,1);
 }
 
+.header__nav{
+    align-self: flex-end;
+}
+.header__nav__icon{
+    width: 25px;
+    height: 4px;
+    background-color: rgb(156, 184, 184);
+    margin-bottom: 3px;
+    border-radius: 12px;
+}
