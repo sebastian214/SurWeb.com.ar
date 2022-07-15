@@ -107,8 +107,8 @@ body{
 
 
 .main__question{
-    width: 8.6rem;
-    height: 8.6rem;
+    width: 136px;
+    height: 136px;
     margin-left: auto;
     margin-right: auto;
     border: 2px solid var(--color1);
