@@ -104,10 +104,29 @@ body{
     width: 100%;
     max-width: 500px;
 }
-.main h3{
+
+
+.main__question{
+    width: 8.6rem;
+    height: 8.6rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid var(--color1);
+    border-radius: 50%;
+}
+.main__question__text{
     color: var(--color3);
     font-family: var(--font1);
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
-    letter-spacing: 5px;
+    letter-spacing: 5px; 
+    padding-top: 20px;
+    padding-left: 6px;
 }
+
+
+
+
+
+
+
