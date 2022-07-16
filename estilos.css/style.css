@@ -80,6 +80,8 @@ body{
 }
 
 /* -/-/-/-/-/- Main -/-/-/-/-/- */
+
+/* /-/-/ Section1 -/-/ */
 .main__section1{
     width: 100%;
     display: flex;
@@ -108,7 +110,6 @@ body{
     width: 100%;
     max-width: 500px;
 }
-
 
 .main__question{
     width: 10rem;
@@ -167,8 +168,20 @@ body{
               animation-timing-function: ease-out;
     }
   }
+/* /-/-/ Section2 -/-/ */
+.main__section2{
+    position: relative;
+}  
+.main__question{
 
-  
+}
+.main__section2__img{
+    width: 20%;
+    position: absolute;
+    bottom: 0;
+    left: 14rem;
+    
+}
 
 
     
