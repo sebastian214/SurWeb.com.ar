@@ -114,8 +114,8 @@ body{
 
 /* /-/-/ Section2 -/-/ */
 .main__question{
-    width: 160px;
-    height: 160px;
+    width: 10rem;
+    height: 10rem;
     margin-left: auto;
     margin-right: auto;
     border: 2px solid var(--color1);
