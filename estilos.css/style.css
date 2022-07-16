@@ -111,7 +111,6 @@ body{
     max-width: 500px;
 }
 
-
 /* /-/-/ Section2 -/-/ */
 .main__question{
     width: 10rem;
@@ -172,15 +171,18 @@ body{
               animation-timing-function: ease-out;
     }
   }
-
 .main__section2__img{
     width: 40%;
     position: absolute;
     bottom: 0;
-    left: 9rem;
-    
+    left: 9rem; 
 }
-
+/* /-/-/ Section3 -/-/ */
+.main__section3{
+    background-color: var(--color3);
+    width: 100%;
+    height: 100vh;
+}
 
     
 
