@@ -111,9 +111,11 @@ body{
     max-width: 500px;
 }
 
+
+/* /-/-/ Section2 -/-/ */
 .main__question{
-    width: 10rem;
-    height: 10rem;
+    width: 160px;
+    height: 160px;
     margin-left: auto;
     margin-right: auto;
     border: 2px solid var(--color1);
@@ -123,12 +125,14 @@ body{
     align-items: center;
 }
 .main__question__text{
+    
     color: var(--color3);
     font-family: var(--font1);
     font-size: 1.5rem;
     text-align: center;
     letter-spacing: 5px; 
     padding-left: 3px;
+    position: relative;
 }
 .heartbeat {
 	-webkit-animation: heartbeat 2s cubic-bezier(0.550, 0.055, 0.675, 0.190) infinite both;
@@ -168,18 +172,12 @@ body{
               animation-timing-function: ease-out;
     }
   }
-/* /-/-/ Section2 -/-/ */
-.main__section2{
-    position: relative;
-}  
-.main__question{
 
-}
 .main__section2__img{
-    width: 20%;
+    width: 40%;
     position: absolute;
     bottom: 0;
-    left: 16rem;
+    left: 9rem;
     
 }
 
