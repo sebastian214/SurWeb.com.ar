@@ -204,19 +204,24 @@ body{
     height: 100vh;
     background-color: var(--color3);
     display: grid;
+    grid-template-columns: 100;
+    grid-template-rows: repeat(4, 1fr);
+
 }
-.layout2__art1{
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+.layout2__text{
+   border: 1px solid red;
     font-family: var(--font2);
+    grid-area: 1/3;
 }
-.layout2__art2{
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+.layout2__card1{
+    border: 1px solid black;
+    grid-area: card1;
 }
-.layout2__art2 img{
-    width: 20%;
+.layout2__card2{
+    border: 1px solid black;
+    grid-area: card2;
+}
+.layout__footer{
+    border: 1px solid red;
+    grid-area: footer;
 }
