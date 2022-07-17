@@ -58,13 +58,14 @@ body{
 .header{
     margin-top: 15px;
     width: 100%;
-    height: 20%;
+    height: 16%;
     margin-left: auto;
     margin-right: auto;
     color: aliceblue;
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* border: 3px solid red; */
 }
 .header__titl h2{
     font-size: 3.6rem;
@@ -82,9 +83,10 @@ body{
 .header__nav__icon{
     width: 25px;
     height: 4px;
-    background-color: rgb(156, 184, 184);
+    background-color: var(--color3);
     margin-bottom: 3px;
     border-radius: 12px;
+    margin-right: 12px;
 }
 
 /* -/-/-/-/-/- Main -/-/-/-/-/- */
@@ -92,7 +94,7 @@ body{
 /* /-/-/ Section1 -/-/ */
 .main{
     width: 100%;
-    height: 70%;
+    height: 74%;
 }
 .main__section1{
     width: 100%;
