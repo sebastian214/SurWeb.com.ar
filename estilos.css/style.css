@@ -9,6 +9,7 @@
 img{
     width: 100%;
     height: auto;
+    display: block;
 }
 a{
     list-style: none;
@@ -43,7 +44,7 @@ a{
 /*//------ //-----//------//------// Cuerpo //------//------//------// */
 body{
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
     background-color: var(--color2);
 }
 /* -/-/-/-/-/- Header -/-/-/-/-/- */
@@ -94,7 +95,6 @@ body{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    /* border: 3px solid red; */
 }
 .main__section1__text h1{
     color: white;
@@ -104,11 +104,12 @@ body{
 .main__section1__img{
     width: 100%;
     background-color: var(--color1);
-    /* border: 3px solid wheat; */
 }
 .main__section1__img img{
     width: 100%;
     max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* /-/-/ Section2 -/-/ */
@@ -178,11 +179,7 @@ body{
     left: 9rem; 
 }
 /* /-/-/ Section3 -/-/ */
-.main__section3{
-    background-color: var(--color3);
-    width: 100%;
-    height: 100vh;
-}
+
 
     
 
