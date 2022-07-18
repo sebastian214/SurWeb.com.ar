@@ -56,14 +56,14 @@ body{
 .header{
     margin-top: 15px;
     width: 100%;
-    height: 20vh;
+    height: 15vh;
     margin-left: auto;
     margin-right: auto;
     color: aliceblue;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* border: 3px solid red; */
+    /* border: 1px solid red; */
 }
 .header__titl h2{
     font-size: 3.6rem;
@@ -92,14 +92,14 @@ body{
 /* /-/-/ Section1 -/-/ */
 .main{
     width: 100%;
-    height: 70vh;
-    border: 4px dashed red;
+    height: 75vh;
+    /* border: 1px dashed red; */
 }
 .main__section1{
     width: 100%;
     display: flex;
     flex-direction: column; 
-    border: 4px red solid;
+    /* border: 4px red solid; */
 }
 .main__section1__text{
     width: 90%;
@@ -107,7 +107,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 .main__section1__text h1{
     color: white;
