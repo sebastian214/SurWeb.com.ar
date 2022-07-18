@@ -48,7 +48,7 @@ body{
 /* -/-/-/-/-/- Header -/-/-/-/-/- */
 .layout1{
     width: 100%;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -56,7 +56,7 @@ body{
 .header{
     margin-top: 15px;
     width: 100%;
-    height: 15vh;
+    /* height: 15vh; */
     margin-left: auto;
     margin-right: auto;
     color: aliceblue;
@@ -92,7 +92,7 @@ body{
 /* /-/-/ Section1 -/-/ */
 .main{
     width: 100%;
-    height: 75vh;
+    /* height: 75vh; */
     /* border: 1px dashed red; */
 }
 .main__section1{
@@ -127,7 +127,6 @@ body{
 
 /* /-/-/ Section2 -/-/ */
 .main__section2{
-    border: 2px solid white;
     margin-top: 3rem;
 }
 .main__question{
@@ -156,17 +155,12 @@ body{
  }        
 @-webkit-keyframes heartbeat {
     from {
-      -webkit-transform: scale(1);
               transform: scale(1);
-      -webkit-transform-origin: center center;
               transform-origin: center center;
-      -webkit-animation-timing-function: ease-out;
               animation-timing-function: ease-out;
     }
     10% {
-      -webkit-transform: scale(0.91);
               transform: scale(0.91);
-      -webkit-animation-timing-function: ease-in;
               animation-timing-function: ease-in;
     }
     17% {
@@ -195,16 +189,16 @@ body{
     left: 9rem; 
 }
 /* /-/-/ Section3 -/-/ */
-.section3{
+/* .section3{
     width: 70%;
     margin-left: auto;
     margin-right: auto;
     display: none;
-}
+} */
 /* -/-/-/-/-/- Layout 2 -/-/-/-/-/- */
 .layout2{
     width: 100%;
-    height: vh;
+    height: 100vh;
     background-color: var(--color3);
     display: grid;
     grid-template-columns: 100;
