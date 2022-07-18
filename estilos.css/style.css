@@ -43,8 +43,6 @@ a{
 
 /*//------ //-----//------//------// Cuerpo //------//------//------// */
 body{
-    width: 100%;
-
     background-color: var(--color2);
 }
 /* -/-/-/-/-/- Header -/-/-/-/-/- */
@@ -58,7 +56,7 @@ body{
 .header{
     margin-top: 15px;
     width: 100%;
-    height: 16%;
+    height: 20vh;
     margin-left: auto;
     margin-right: auto;
     color: aliceblue;
@@ -94,7 +92,7 @@ body{
 /* /-/-/ Section1 -/-/ */
 .main{
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     border: 4px dashed red;
 }
 .main__section1{
@@ -206,7 +204,7 @@ body{
 /* -/-/-/-/-/- Layout 2 -/-/-/-/-/- */
 .layout2{
     width: 100%;
-    height: 100vh;
+    height: vh;
     background-color: var(--color3);
     display: grid;
     grid-template-columns: 100;
