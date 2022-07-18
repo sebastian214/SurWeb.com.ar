@@ -50,7 +50,7 @@ body{
 /* -/-/-/-/-/- Header -/-/-/-/-/- */
 .layout1{
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -94,7 +94,7 @@ body{
 /* /-/-/ Section1 -/-/ */
 .main{
     width: 100%;
-    height: 74%;
+    height: 75vh;
 }
 .main__section1{
     width: 100%;
@@ -120,7 +120,7 @@ body{
 }
 .main__section1__img img{
     width: 100%;
-    max-width: 500px;
+    max-width: 35%;
     margin-left: auto;
     margin-right: auto;
 }
