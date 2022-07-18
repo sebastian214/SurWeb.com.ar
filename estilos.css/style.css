@@ -203,7 +203,8 @@ body{
     text-align: center;
     font-family: var(--font2);
     font-size: 17px;
-    grid-area: __p;
+    margin-bottom: 1rem;
+    padding-top: 1.5rem;
 }
 .layout2__grid{
     width: 80%;
@@ -212,26 +213,30 @@ body{
     margin-right: auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: 1fr 20px 1fr;
     grid-template-areas:
      " card1 card1"
+     ". ."
      "card2 card2";
 }
 .layout2__card1{
     background-image: url(../media/web-wallah-portfolio-page.png);
     background-repeat:no-repeat ;
     background-size: contain;
+    background-position: center;
     grid-area: card1;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
+    border-radius: 12px;
 } 
 .layout2__card2{
     background-image: url(../media/portadas-soluciones-web_catalogo-1-838x628.png);
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: center;
     grid-area: card2;
+    border-radius: 12px;
 }  
 .layout__card1__text{
     width: 100%;
@@ -240,6 +245,7 @@ body{
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0, .75);
+    border-radius: 12px;
 }
 .layout__card1__text p{
     color: var(--color3);
@@ -255,6 +261,7 @@ body{
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0, .75);
+    border-radius: 12px;
 }
 .layout__card2__text p{
     color: var(--color3);
