@@ -196,6 +196,7 @@ body{
 .layout2{
     width: 100%;
     background-color: var(--color3);
+
 }
 .layout2__p{
     width: 100%;
@@ -228,11 +229,12 @@ body{
     margin-right: auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr 20px 1fr;
+    grid-template-rows: 1fr 20px 1fr 20px;
     grid-template-areas:
      " card1 card1"
      ". ."
-     "card2 card2";
+     "card2 card2"
+     ". .";
 }
 .layout2__card1{
     background-image: url(../media/web-wallah-portfolio-page.png);
@@ -286,5 +288,15 @@ body{
     letter-spacing: 8px;
     font-weight: 300;
     text-transform: uppercase;
+    text-align: center;
+}
+
+/* -/-/-/-/-/- Layout 2 -/-/-/-/-/- */
+.footer{
+    margin-top: 1rem;
+    width: 100%;
+    color: var(--color3);
+    display: flex;
+    justify-content: center;
     text-align: center;
 }
