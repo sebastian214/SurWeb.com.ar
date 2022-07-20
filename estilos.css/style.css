@@ -198,13 +198,12 @@ body{
     background-color: var(--color3);
 }
 .layout2__p{
-    margin-top: 1.5rem;
     width: 100%;
     text-align: center;
     font-family: var(--font2);
     font-size: 17px;
-    margin-bottom: 1rem;
-    padding-top: 1.5rem;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
 }
 .layout2__question{
     width:60%;
@@ -219,10 +218,11 @@ body{
     font-size: 1.5rem;
 }
 .layout2__question img{
-    width: 40%;
+    width: 70px;
 }
 .layout2__grid{
     width: 80%;
+    max-width: 500px;
     height: 70vh;
     margin-left: auto;
     margin-right: auto;
