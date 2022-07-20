@@ -55,13 +55,13 @@ body{
 .header{
     margin-top: 15px;
     width: 100%;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
     color: aliceblue;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* border: 1px solid red; */
 }
 .header__titl h2{
     font-size: 3.6rem;
@@ -206,6 +206,21 @@ body{
     margin-bottom: 1rem;
     padding-top: 1.5rem;
 }
+.layout2__question{
+    width:60%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+}
+.layout2__question h3{
+    font-family: var(--font1);
+    font-size: 1.5rem;
+}
+.layout2__question img{
+    width: 40%;
+}
 .layout2__grid{
     width: 80%;
     height: 70vh;
@@ -266,7 +281,7 @@ body{
 .layout__card2__text p{
     color: var(--color3);
     font-family: var(--font2);
-    letter-spacing: 4px;
+    letter-spacing: 8px;
     font-weight: 300;
     text-transform: uppercase;
     text-align: center;
