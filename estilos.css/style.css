@@ -138,13 +138,15 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: var(--color3);   
 }
 .main__question__text{
-    color: var(--color3);
+    color: var(--color2);
     font-family: var(--font1);
     font-size: 1.5rem;
+    font-weight: bold;
     text-align: center;
-    letter-spacing: 5px; 
+    letter-spacing: 3px; 
     padding-left: 3px;
 }
 .heartbeat {
